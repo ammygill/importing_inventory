@@ -1,0 +1,15 @@
+[hosts]
+server1
+server2
+
+[dublin]
+server4
+server5
+
+[europe]
+server7
+server8
+
+[asia:children]
+europe
+dublin
